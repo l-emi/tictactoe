@@ -9,4 +9,4 @@ I have to give credit to these two resources, which were very good at clarifying
 
 <br>
 **Issues to fix:**<br>
-* Button text cut off on iPhone 6s. 
+* ~~Button text cut off on iPhone 6s.~~

@@ -1,0 +1,217 @@
+@import 'https://fonts.googleapis.com/css?family=Merriweather+Sans|Open+Sans';
+
+body {
+    background-color: #fdfdfd;
+    overflow: hidden !important;
+    -ms-transition: background 0.8s ease 0s;
+    -moz-transition: background 0.8s ease 0s;
+    -o-transition: background 0.8s ease 0s;
+    -webkit-transition: background 0.8s ease 0s;
+    transition: background 0.8s ease 0s;  
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title {
+    text-align: center;
+    color: #F96B6B;
+    opacity: 0.98;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#desc {
+    text-align: center;
+    color: #F96B6B;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.05em;
+    padding: 0px 10px;
+}
+
+#status {
+    text-align: center;
+    color: #F96B6B;
+    opacity: 0.98;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    padding: 0px 0px 10px 0px;
+    font-weight: bold;
+    position: absolute;
+    display: inline-block;
+    bottom: -25px;
+    width: 100%;
+}
+
+#play {
+    text-align: center;
+}
+
+.btn-style {
+    height: 30px;
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 2px;
+    font-weight: bold;
+    background-color: #F96B6B;
+    border: 1px solid #B46B6B;
+    color: #fdfdfd;
+}
+
+.btn-style:active {
+    background-color: #B46B6B;
+}
+
+#all {
+    position: absolute;
+}
+
+#top-stuff {
+    margin-bottom: 20px;
+}
+
+.pos {
+    margin: 0px !important;
+    height: 33.33333333333%; /*lol*/
+    width: 33.3333333333%;
+    display: block;
+    float: left;
+    background-color: #fdfdfd;
+    opacity: 1;
+    border: 2px solid #F96B6B;
+    cursor: pointer;
+    font-size: 5.6em !important;
+    color: #F96B6B;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    top: 250px;
+    background: #F96B6B;
+    padding: 5px;
+    border: 1px solid #F96B6B;
+    /*position: relative;
+    top: 50%;*/
+    margin: 0px auto 30px;
+}
+
+.boardshadow {
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.22);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.22);
+    transition: 0.8s ease;
+}
+
+#choose {
+    text-align: center;
+    background-color: #547093;
+    width: 320px;
+    height: 220px;
+    background-color: #fdfdfd;
+    border: 1px solid #F96B6B;
+    color: #20589e;
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.42);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.42);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.42);
+    transition: 0.05s ease;
+    visibility: hidden;
+}
+
+#choose button {
+    width: 2.5em;
+    height: 2em;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding-top: 3px;
+    background-color: #F96B6B;
+    opacity: 0.8;
+    border: 2px solid rgba(0,0,0,0.35);
+    color: #fdfdfd;
+}
+
+#choose button:active {
+    background-color: #B46B6B;
+}
+
+#choose h3 {
+    color: #B46B6B;
+    font-size: 1.6em;
+    font-weight: ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#choose p {
+    color: #B46B6B;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+}
+
+#nice {
+    text-align: center;
+    color: #B46B6B;
+    padding-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.already-played {
+    pointer-events: none;
+}
+
+
+@media (max-width: 440px) {
+  #board {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  .pos {
+      font-size: 4.5em !important;
+  }
+  #top-stuff {
+    margin-bottom: 60px;
+  }
+  #choose {
+    width: 300px;
+}
+    #title {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 330px) {
+  #board {
+    width: 250px;
+    height: 250px;
+  }
+    #title {
+        font-size: 2.1em;
+    }
+    #choose {
+    width: 250px;
+    height: 200px;
+    }
+    #choose h3 {
+        font-size: 1.3em;
+    }
+    #choose button {
+        width: 2.5em;
+        height: 2.3em;
+        padding-bottom: 1px;
+        font-size: 1.3em;
+    }
+    .pos {
+      font-size: 3.5em !important;
+    }
+     #top-stuff {
+        margin-bottom: 10px;
+    }
+}

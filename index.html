@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <script src="https://use.fontawesome.com/58bcbed17c.js"></script>
+    <title>Tic-Tac-Toe</title>
+    </head>
+    
+    <body>
+        
+        <div id="all" class="centered">
+            
+            <div id="top-stuff">
+            <h2 id="title">TIC &nbsp;TAC &nbsp;TOE</h2>
+            <p id="desc">Welcome! Today you're going to play a game with the computer. You're not going to win.</p>
+            <div id="play">
+                <button class="btn-style" id="start-game">PLAY</button>
+                <button class="btn-style" id="reset">RESET</button>
+            </div>
+            </div>
+        
+            <div id="board">
+                <div class="pos" id="c00"></div>
+                <div class="pos" id="c01"></div>
+                <div class="pos" id="c02"></div>
+                <div class="pos" id="c10"></div>
+                <div class="pos" id="c11"></div>
+                <div class="pos" id="c12"></div>
+                <div class="pos" id="c20"></div>
+                <div class="pos" id="c21"></div>
+                <div class="pos" id="c22"></div>
+            </div>
+            
+            <div id="choose" class="centered">
+                <div id="choose-cont" class="centered">
+                <h3>You are X, the computer is O. Go first!</h3>
+                <button id="okay">OK</button>
+                <button id="surprise">NO</button>
+                </div>
+            </div>
+            
+            <p id="status"></p>
+            
+        </div>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>

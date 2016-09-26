@@ -126,16 +126,20 @@ body {
 }
 
 #choose button {
-    width: 2.5em;
-    height: 2em;
+    width: 3em;
+    height: 2.3em;
+    text-align: center !important;
     margin-top: 5px;
     font-weight: bold;
     font-size: 1.6em;
-    padding-top: 3px;
     background-color: #F96B6B;
     opacity: 0.8;
     border: 2px solid rgba(0,0,0,0.35);
     color: #fdfdfd;
+}
+
+#choose button i {
+    text-align: center !important;
 }
 
 #choose button:active {
@@ -203,8 +207,6 @@ body {
         font-size: 1.3em;
     }
     #choose button {
-        width: 2.5em;
-        height: 2.3em;
         padding-bottom: 1px;
         font-size: 1.3em;
     }

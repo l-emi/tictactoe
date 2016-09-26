@@ -5,11 +5,12 @@
 *************************************/
 $("#start-game").click(function() {
     $("#choose").css("visibility", "visible");
-    $(".pos").removeClass("already-played");
+    $(".pos").addClass("already-played");
 });
 
 $("#okay").click(function() {
     $("#choose").css("visibility", "hidden");
+    $(".pos").removeClass("already-played");
     $("body").css("background-color", "#F9CBCB");
     $("#board").addClass("boardshadow");
     $("#start-game").addClass("already-played");
